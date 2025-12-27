@@ -15,8 +15,9 @@ void bubbleSort(vector<int> &arr)
 
 int main()
 {
-    vector<int> arr = {38, 27, 43, 3, 9, 82, 10};
+    vector<int> arr = {38, 27, 43, 3, 9, 82};
     bubbleSort(arr);
     for(int &x : arr) cout<<x<<" ";
     return 0;
+
 }
