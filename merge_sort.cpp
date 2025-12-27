@@ -26,8 +26,9 @@ void mergeSort(vector<int> &arr, int left, int right)
 
 int main()
 {
-    vector<int> arr = {38, 27, 43, 3, 9, 82, 10};
+    vector<int> arr = {38, 27, 43, 3, 9, 82};
     mergeSort(arr,0,arr.size() - 1);
     for(int &x : arr) cout<<x<<" ";
     return 0;
 }
+
