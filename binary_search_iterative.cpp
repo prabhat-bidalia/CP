@@ -17,6 +17,7 @@ int binarySearch(vector<int> &arr, int key)
 int main()
 {
     vector<int> nums = {1,2,3,4,5};
-    cout<<binarySearch(nums,5)<<endl;
+    cout << binarySearch(nums,5) << endl;
     return 0;
 }
+
